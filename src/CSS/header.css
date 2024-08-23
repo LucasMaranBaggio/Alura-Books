@@ -28,7 +28,6 @@
 .opcoes,
 .container__texto,
 .container__botao,
-.transparente,
 .opcoes__botao {
     display: none;
 }
@@ -75,6 +74,10 @@
 }
 
 @media screen and (min-width: 1024px) {
+    .transparente {
+        display: none;
+    }
+
     .cabecalho__menu-hamburguer {
         display: none;
     }
